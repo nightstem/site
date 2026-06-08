@@ -31,8 +31,8 @@
   "dependencies": {
     "@growthbook/growthbook-react": "^1.6.5",
     "@microsoft/clarity": "^1.0.2",
-    "@nightstem/tokens": "^1.0.0",
-    "@nightstem/ui": "^1.0.2",
+    "@nightstem/tokens": "^1.1.0",
+    "@nightstem/ui": "^1.1.0",
     "@nightstem/utils": "^1.0.1",
     "next": "16.2.3",
     "react": "19.2.5",

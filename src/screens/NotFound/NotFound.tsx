@@ -2,12 +2,6 @@
 import { usePathname, useRouter } from 'next/navigation';
 import { useCallback, useEffect, useState } from 'react';
 
-import Logo, {
-  LOGO_ANIMATIONS,
-  LOGO_MODES,
-  LOGO_SIZES,
-} from '@/components/ui/Logo';
-
 import { randomInt, hashIndex } from '@nightstem/utils';
 
 import {
@@ -15,7 +9,14 @@ import {
   defaultNotFound,
   notFoundList,
 } from '@/screens/NotFound/constants';
-import { Button, Kbd } from '@nightstem/ui';
+import {
+  Button,
+  Kbd,
+  Logo,
+  LOGO_ANIMATIONS,
+  LOGO_MODES,
+  LOGO_SIZES,
+} from '@nightstem/ui';
 import LinkButton from '@/components/ui/LinkButton';
 
 export type NotFoundProps = {

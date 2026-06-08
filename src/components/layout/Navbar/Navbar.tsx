@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import { cn } from '@nightstem/utils';
 
 import LinkButton from '@/components/ui/LinkButton';
-import Logo, { LOGO_MODES, LOGO_SIZES } from '@/components/ui/Logo';
+import { Logo, LOGO_MODES, LOGO_SIZES } from '@nightstem/ui';
 import Link from 'next/link';
 
 const Navbar = () => {
