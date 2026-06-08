@@ -1,5 +1,5 @@
-import { Button } from '@/components/ui/Buttons';
-import cn from '@/utils/classnames';
+import { Button } from '@nightstem/ui';
+import { cn } from '@nightstem/utils';
 
 const Hero = () => {
   return (

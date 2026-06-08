@@ -1,6 +1,6 @@
 import { LogoMark } from '@/assets/svgs/LogoMark';
 
-import cn from '@/utils/classnames';
+import { cn } from '@nightstem/utils';
 
 import type {
   LogoAnimation,

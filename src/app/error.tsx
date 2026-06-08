@@ -7,7 +7,7 @@ import Logo, {
   LOGO_MODES,
   LOGO_SIZES,
 } from '@/components/ui/Logo';
-import { Button } from '@/components/ui/Buttons';
+import { Button } from '@nightstem/ui';
 
 export const metadata: Metadata = {
   title: 'Unexpected error | Nightstem',

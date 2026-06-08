@@ -1,4 +1,4 @@
-import cn from '@/utils/classnames';
+import { cn } from '@nightstem/utils';
 
 type LogoMarkProps = {
   className?: string;
