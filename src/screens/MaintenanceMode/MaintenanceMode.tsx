@@ -3,7 +3,7 @@ import Logo, {
   LOGO_MODES,
   LOGO_SIZES,
 } from '@/components/ui/Logo';
-import { LinkButton } from '@/components/ui/Buttons';
+import LinkButton from '@/components/ui/LinkButton';
 
 const MaintenanceMode = () => {
   const version = process.env.NEXT_PUBLIC_APP_VERSION;
@@ -33,7 +33,7 @@ const MaintenanceMode = () => {
         </p>
 
         <div className="flex gap-3">
-          <LinkButton href="." isExternal>
+          <LinkButton href="." linkComponent="a">
             Try again
           </LinkButton>
         </div>

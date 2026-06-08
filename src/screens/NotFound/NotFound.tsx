@@ -8,16 +8,15 @@ import Logo, {
   LOGO_SIZES,
 } from '@/components/ui/Logo';
 
-import randomInt from '@/utils/randomInt';
-import hashIndex from '@/utils/hashIndex';
+import { randomInt, hashIndex } from '@nightstem/utils';
 
 import {
   type NotFoundPhrase,
   defaultNotFound,
   notFoundList,
 } from '@/screens/NotFound/constants';
-import Kbd from '@/components/ui/Kbd';
-import { Button, LinkButton } from '@/components/ui/Buttons';
+import { Button, Kbd } from '@nightstem/ui';
+import LinkButton from '@/components/ui/LinkButton';
 
 export type NotFoundProps = {
   notFoundPhrases?: NotFoundPhrase[];

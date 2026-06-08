@@ -1,9 +1,9 @@
 'use client';
 import { useEffect, useRef } from 'react';
 
-import cn from '@/utils/classnames';
+import { cn } from '@nightstem/utils';
 
-import { LinkButton } from '@/components/ui/Buttons';
+import LinkButton from '@/components/ui/LinkButton';
 import Logo, { LOGO_MODES, LOGO_SIZES } from '@/components/ui/Logo';
 import Link from 'next/link';
 
