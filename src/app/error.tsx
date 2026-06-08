@@ -2,12 +2,13 @@
 
 import type { Metadata } from 'next';
 
-import Logo, {
+import {
+  Button,
+  Logo,
   LOGO_ANIMATIONS,
   LOGO_MODES,
   LOGO_SIZES,
-} from '@/components/ui/Logo';
-import { Button } from '@nightstem/ui';
+} from '@nightstem/ui';
 
 export const metadata: Metadata = {
   title: 'Unexpected error | Nightstem',

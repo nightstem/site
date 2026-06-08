@@ -1,8 +1,4 @@
-import Logo, {
-  LOGO_ANIMATIONS,
-  LOGO_MODES,
-  LOGO_SIZES,
-} from '@/components/ui/Logo';
+import { Logo, LOGO_ANIMATIONS, LOGO_MODES, LOGO_SIZES } from '@nightstem/ui';
 import LinkButton from '@/components/ui/LinkButton';
 
 const MaintenanceMode = () => {
