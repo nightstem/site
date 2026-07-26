@@ -2,7 +2,7 @@
 
 exports[`NotFound > renders correctly with snapshot 1`] = `
 <main
-  class="screen-container grid h-full w-full place-items-center"
+  class="screen-container grid screen-section w-full place-items-center"
 >
   <h1
     class="sr-only"

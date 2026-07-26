@@ -3,3 +3,68 @@
 
 /* Tailwind v4 must scan the UI package so its utility classes aren't purged */
 @source '../../node_modules/@nightstem/ui/dist';
+
+/*
+ * Semantic aliases the landing design uses but @nightstem/tokens doesn't
+ * publish yet (candidates to upstream). Literal fallbacks byte-match
+ * theme.css because its `@theme inline` vars may not exist at runtime.
+ */
+@theme inline {
+  --color-surface-card: #141414;
+  --color-emphasis: var(--color-secondary-500, #db9600);
+}
+
+@utility gradient-info {
+  background: linear-gradient(
+    180deg,
+    color-mix(
+        in srgb,
+        var(--color-secondary-900, oklch(46% 0.14 78)) 14%,
+        var(--color-dark, #0a0a0a)
+      )
+      0%,
+    color-mix(
+        in srgb,
+        var(--color-secondary-900, oklch(46% 0.14 78)) 8%,
+        var(--color-dark, #0a0a0a)
+      )
+      35%,
+    color-mix(
+        in srgb,
+        var(--color-secondary-900, oklch(46% 0.14 78)) 3%,
+        var(--color-dark, #0a0a0a)
+      )
+      70%,
+    var(--color-dark, #0a0a0a) 100%
+  );
+}
+
+@utility gradient-projects {
+  background: linear-gradient(
+    180deg,
+    var(--color-dark, #0a0a0a) 0%,
+    var(--background, #000) 55%,
+    color-mix(
+        in srgb,
+        var(--color-primary-900, oklch(48% 0.14 162)) 18%,
+        var(--background, #000)
+      )
+      100%
+  );
+}
+
+/* Like `screen-section` but a min-height, so content can grow past a viewport */
+@utility screen-section-min {
+  min-height: calc(100dvh - var(--navbar-height, 65px));
+}
+
+/* Landing content column (narrower than `screen-container`'s 96rem) */
+@utility landing-container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+@utility landing-section-pad {
+  padding: clamp(48px, 8vh, 96px) clamp(20px, 5vw, 64px);
+}

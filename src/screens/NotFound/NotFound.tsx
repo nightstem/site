@@ -49,7 +49,7 @@ const NotFound = ({ notFoundPhrases = notFoundList }: NotFoundProps) => {
   const { title, description } = notFoundPhrases[index] ?? defaultNotFound;
 
   return (
-    <main className="screen-container grid h-full w-full place-items-center">
+    <main className="screen-container grid screen-section w-full place-items-center">
       <h1 className="sr-only">Page not found</h1>
 
       <section

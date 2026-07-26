@@ -1,12 +1,17 @@
-import { Hero, Philosophy } from '@/screens/Homepage/sections';
+import Footer from '@/components/layout/Footer';
+import { Hero, Information, Projects } from '@/screens/Homepage/sections';
 
 const Homepage = () => {
   return (
-    <main className="">
-      <h1 className="sr-only">Nightstem</h1>
-
+    <main>
       <Hero />
-      <Philosophy />
+      <Information />
+
+      {/* Projects fills whatever the footer doesn't take of the last viewport */}
+      <div className="flex min-h-dvh flex-col">
+        <Projects className="flex-1" />
+        <Footer />
+      </div>
     </main>
   );
 };

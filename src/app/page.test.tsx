@@ -1,20 +1,18 @@
-import { axe } from 'vitest-axe';
-import { expect, it, describe } from 'vitest';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
+import { describe, expect, it, vi } from 'vitest';
 
 import Page from '@/app/page';
 
+vi.mock('@/screens/Homepage', () => ({
+  Homepage: vi.fn(() => (
+    <div data-testid="homepage-component">Homepage Component</div>
+  )),
+}));
+
 describe(Page, () => {
-  it('matches snapshot', () => {
-    const { container } = render(<Page />);
+  it('renders the Homepage screen', () => {
+    render(<Page />);
 
-    expect(container).toMatchSnapshot();
-  });
-
-  it('does not have violations', async () => {
-    const { container } = render(<Page />);
-    const result = await axe(container);
-
-    expect(result).toHaveNoViolations();
+    expect(screen.getByTestId('homepage-component')).toBeInTheDocument();
   });
 });

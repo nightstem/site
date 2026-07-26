@@ -1,0 +1,143 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Projects > matches the snapshot 1`] = `
+<div>
+  <section
+    class="border-t border-foreground/10 gradient-projects scroll-mt-(--navbar-height) landing-section-pad flex flex-col justify-center"
+    id="ns-projects"
+  >
+    <div
+      class="landing-container"
+    >
+      <div
+        class="mb-[clamp(28px,4vh,48px)] gap-4 flex flex-wrap items-end justify-between"
+      >
+        <div
+          class="flex flex-col gap-4"
+        >
+          <span
+            class="font-mono text-xs tracking-[0.08em] text-foreground/60"
+          >
+            PROJECTS
+          </span>
+          <h2
+            class="font-semibold text-[clamp(1.75rem,3vw,2.4rem)] leading-[1.2] tracking-[-0.02em]"
+          >
+            <span
+              class="text-primary-500"
+            >
+              Quiet work
+            </span>
+            , open source
+          </h2>
+        </div>
+        <a
+          class="font-mono text-sm text-foreground/60 transition-colors duration-200 ease-out hover:text-foreground rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
+          href="https://github.com/nightstem"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          github.com/nightstem ↗
+        </a>
+      </div>
+      <div
+        class="grid grid-cols-[repeat(auto-fill,minmax(min(360px,100%),1fr))] gap-3.5"
+      >
+        <a
+          class="flex flex-col gap-2 px-5.5 py-4.5 rounded-lg border border-foreground/10 bg-surface-card transition-colors duration-200 ease-out hover:border-primary-500/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
+          href="https://github.com/nightstem/design-system"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="flex items-center justify-between gap-3"
+          >
+            <h3
+              class="font-mono text-sm font-normal"
+            >
+              design-system
+            </h3>
+            <span
+              class="rounded-full border px-2 py-0.5 font-mono text-[0.6875rem] text-foreground/60 border-foreground/20"
+            >
+              alpha
+            </span>
+          </div>
+          <span
+            class="text-[0.8125rem] leading-normal text-foreground/70"
+          >
+            Tokens, UI primitives, and the foundations behind everything Nightstem ships.
+          </span>
+          <span
+            class="mt-1 font-mono text-[0.6875rem] text-foreground/60"
+          >
+            TypeScript ↗
+          </span>
+        </a>
+        <a
+          class="flex flex-col gap-2 px-5.5 py-4.5 rounded-lg border border-foreground/10 bg-surface-card transition-colors duration-200 ease-out hover:border-primary-500/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
+          href="https://github.com/nightstem/site"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="flex items-center justify-between gap-3"
+          >
+            <h3
+              class="font-mono text-sm font-normal"
+            >
+              site
+            </h3>
+            <span
+              class="rounded-full border px-2 py-0.5 font-mono text-[0.6875rem] text-primary-500 border-primary-500/40"
+            >
+              live
+            </span>
+          </div>
+          <span
+            class="text-[0.8125rem] leading-normal text-foreground/70"
+          >
+            nightstem.com — the studio's marketing site. Calm, dark, and fast.
+          </span>
+          <span
+            class="mt-1 font-mono text-[0.6875rem] text-foreground/60"
+          >
+            Next.js ↗
+          </span>
+        </a>
+        <a
+          class="flex flex-col gap-2 px-5.5 py-4.5 rounded-lg border border-foreground/10 bg-surface-card transition-colors duration-200 ease-out hover:border-primary-500/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
+          href="https://github.com/nightstem/tokens"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div
+            class="flex items-center justify-between gap-3"
+          >
+            <h3
+              class="font-mono text-sm font-normal"
+            >
+              @nightstem/tokens
+            </h3>
+            <span
+              class="rounded-full border px-2 py-0.5 font-mono text-[0.6875rem] text-foreground/60 border-foreground/20"
+            >
+              alpha
+            </span>
+          </div>
+          <span
+            class="text-[0.8125rem] leading-normal text-foreground/70"
+          >
+            OKLCH color scales and a modular type system, published on npm.
+          </span>
+          <span
+            class="mt-1 font-mono text-[0.6875rem] text-foreground/60"
+          >
+            npm ↗
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
+`;

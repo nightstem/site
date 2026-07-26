@@ -1,0 +1,44 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Contact > matches the snapshot 1`] = `
+<div>
+  <main
+    class="screen-section bg-background px-[clamp(20px,5vw,64px)] flex flex-col items-start justify-center"
+  >
+    <div
+      class="landing-container flex flex-col gap-6"
+    >
+      <span
+        class="font-mono text-xs tracking-[0.08em] text-foreground/60"
+      >
+        CONTACT
+      </span>
+      <h1
+        class="font-semibold text-pretty text-[clamp(1.75rem,3vw,2.4rem)] leading-[1.2] tracking-[-0.02em]"
+      >
+        Say 
+        <span
+          class="text-primary-500"
+        >
+          hello
+        </span>
+      </h1>
+      <p
+        class="measure-tight text-base text-foreground/70"
+      >
+        A proper contact page is on its way. Until then, the inbox is always open.
+      </p>
+      <div
+        class="mt-2"
+      >
+        <a
+          class="select-none whitespace-nowrap font-medium cursor-pointer transition-colors duration-200 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-dark text-base px-4 py-2 rounded-md text-dark bg-primary-500 hover:bg-primary-400 active:bg-primary-400 focus-visible:ring-primary-500 disabled:opacity-60 disabled:hover:bg-primary-500 disabled:active:bg-primary-500"
+          href="mailto:hello@nightstem.com"
+        >
+          Send us an email
+        </a>
+      </div>
+    </div>
+  </main>
+</div>
+`;

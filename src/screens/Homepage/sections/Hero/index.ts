@@ -1,1 +1,1 @@
-export { default as Hero } from '@/screens/Homepage/sections/Hero/Hero';
+export { default } from './Hero';
