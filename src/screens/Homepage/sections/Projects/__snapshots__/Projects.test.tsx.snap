@@ -105,37 +105,6 @@ exports[`Projects > matches the snapshot 1`] = `
             Next.js ↗
           </span>
         </a>
-        <a
-          class="flex flex-col gap-2 px-5.5 py-4.5 rounded-lg border border-foreground/10 bg-surface-card transition-colors duration-200 ease-out hover:border-primary-500/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
-          href="https://github.com/nightstem/tokens"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <div
-            class="flex items-center justify-between gap-3"
-          >
-            <h3
-              class="font-mono text-sm font-normal"
-            >
-              @nightstem/tokens
-            </h3>
-            <span
-              class="rounded-full border px-2 py-0.5 font-mono text-[0.6875rem] text-foreground/60 border-foreground/20"
-            >
-              alpha
-            </span>
-          </div>
-          <span
-            class="text-[0.8125rem] leading-normal text-foreground/70"
-          >
-            OKLCH color scales and a modular type system, published on npm.
-          </span>
-          <span
-            class="mt-1 font-mono text-[0.6875rem] text-foreground/60"
-          >
-            npm ↗
-          </span>
-        </a>
       </div>
     </div>
   </section>

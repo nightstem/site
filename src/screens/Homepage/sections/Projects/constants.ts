@@ -18,12 +18,4 @@ export const REPOS: Repo[] = [
       "nightstem.com — the studio's marketing site. Calm, dark, and fast.",
     meta: 'Next.js ↗',
   },
-  {
-    name: '@nightstem/tokens',
-    href: 'https://github.com/nightstem/tokens',
-    status: 'alpha',
-    description:
-      'OKLCH color scales and a modular type system, published on npm.',
-    meta: 'npm ↗',
-  },
 ];
